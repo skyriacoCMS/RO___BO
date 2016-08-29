@@ -3,7 +3,7 @@ import sys
 
 for i in range(1,4):
  ll = i%2
- fname="/home/savvas/Desktop/Rob/robo"+str(ll)+".txt"
+ fname="/home/savvas/RO___BO/robo"+str(ll)+".txt"
  f1 = open(fname,"rb")
  for line in f1: 
     k = line.rstrip()
